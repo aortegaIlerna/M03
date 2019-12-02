@@ -12,9 +12,10 @@ public class Ejercicio3 {
         numero2 = teclado.nextInt();
 
         Mats mats = new Mats();
-        mats.suma(numero1, numero2);
-        mats.resta(numero1, numero2);
-        mats.multiplicacion(numero1, numero2);
-        mats.division(numero1, numero2);
+
+        System.out.println(mats.suma(numero1, numero2));
+        System.out.println(mats.resta(numero1, numero2));
+        System.out.println(mats.multiplicacion(numero1, numero2));
+        System.out.println(mats.division(numero1, numero2));
     }
 }

@@ -25,7 +25,6 @@ public class Ejercicio2 {
             System.out.println("El número " + numero2 + " es más grande que " + numero1);
         }
 
-
         System.out.println(numero1 >= numero2 ?
                 numero1 > numero2 ? "El numero " + numero1 + " es mas grande que " + numero2
                         : "Los numeros " + numero1 + " y " + numero2 + " son iguales"
